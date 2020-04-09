@@ -113,23 +113,23 @@ create table hasil_kuesioner
 );
 
 alter table aplikasi add constraint fk_relationship_7 foreign key (username)
-      references user (username) on delete restrict on update restrict;
+      references user (username) on delete cascade on update cascade;
 
 alter table hasil_kuesioner add constraint fk_mendapat_nilai foreign key (id_penilaian_sub_karakteristik)
-      references penilaian_sub_karakteristik (id_penilaian_sub_karakteristik) on delete restrict on update restrict;
+      references penilaian_sub_karakteristik (id_penilaian_sub_karakteristik) on delete cascade on update cascade;
 
 alter table hasil_kuesioner add constraint fk_relationship_9 foreign key (id_responden)
-      references responden (id_responden) on delete restrict on update restrict;
+      references responden (id_responden) on delete cascade on update cascade;
 
 alter table penilaian_karakteristik add constraint fk_memilih foreign key (id_aplikasi)
-      references aplikasi (id_aplikasi) on delete restrict on update restrict;
+      references aplikasi (id_aplikasi) on delete cascade on update cascade;
 
 alter table penilaian_karakteristik add constraint fk_relationship_6 foreign key (id_karakteristik)
-      references karakteristik (id_karakteristik) on delete restrict on update restrict;
+      references karakteristik (id_karakteristik) on delete cascade on update cascade;
 
 alter table penilaian_sub_karakteristik add constraint fk_memiliki foreign key (id_penilaian_karakteristik)
-      references penilaian_karakteristik (id_penilaian_karakteristik) on delete restrict on update restrict;
+      references penilaian_karakteristik (id_penilaian_karakteristik) on delete cascade on update cascade;
 
 alter table sub_karakteristik add constraint fk_relationship_8 foreign key (id_karakteristik)
-      references karakteristik (id_karakteristik) on delete restrict on update restrict;
+      references karakteristik (id_karakteristik) on delete cascade on update cascade;
 
