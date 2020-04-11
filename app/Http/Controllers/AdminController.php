@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     //
-<<<<<<< Updated upstream
     public function index()
     {
         return view('/admin/home_admin');
@@ -17,7 +16,7 @@ class AdminController extends Controller
     {
         return view('/admin/view_admin');
     }
-=======
+
     public function editprofil()
 	{
 		return view('/admin/editprofil');
@@ -27,6 +26,6 @@ class AdminController extends Controller
 	{
 		return view('/admin/tambahadmin');
 	}
->>>>>>> Stashed changes
+
 }
 
