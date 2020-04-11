@@ -11,4 +11,10 @@ class AdminController extends Controller
     {
         return view('/admin/home_admin');
     }
+
+    public function view_admin()
+    {
+        return view('/admin/view_admin');
+    }
 }
+
