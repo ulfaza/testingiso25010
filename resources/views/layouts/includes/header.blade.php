@@ -7,7 +7,8 @@
 	<meta name="author" content="Isna Nur Azis">
 	<meta name="keyword" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Miminium</title>
+  
+    <title>Testing App</title>
  
     <!-- start: Css -->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
@@ -39,10 +40,10 @@
                 <span class="bottom"></span>
               </div>
                 <a href="home" class="navbar-brand"> 
-                 <b>MIMIN</b>
+                 <b>ADMIN</b>
                 </a>
 
-              <ul class="nav navbar-nav search-nav">
+              <!-- <ul class="nav navbar-nav search-nav">
                 <li>
                    <div class="search">
                     <span class="fa fa-search icon-search" style="font-size:23px;"></span>
@@ -53,10 +54,10 @@
                     </div>
                   </div>
                 </li>
-              </ul>
+              </ul> -->
 
               <ul class="nav navbar-nav navbar-right user-nav">
-                <li class="user-name"><span>Akihiko Avaron</span></li>
+                <li class="user-name"><span>Nama Admin</span></li>
                   <li class="dropdown avatar-dropdown">
                    <img src="{{asset('assets/img/avatar.jpg')}}" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
                    <ul class="dropdown-menu user-dropdown">
@@ -72,7 +73,7 @@
                     </li>
                   </ul>
                 </li>
-                <li ><a href="#" class="opener-right-menu"><span class="fa fa-coffee"></span></a></li>
+                <!-- <li ><a href="#" class="opener-right-menu"><span class="fa fa-coffee"></span></a></li> -->
               </ul>
             </div>
           </div>
