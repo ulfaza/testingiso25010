@@ -3,7 +3,8 @@
 @section('content')
 <div class="col-md-2">
 </div>
-<div class="col-md-9" style="padding:100px; padding-top:10%">
+<div class="col-md-9" style="padding:100px; padding-top:5%">
+	<h2 style="color: #6699cc">Edit Profil</h2>
 	<form class="form-horizontal">
 		<div class="form-group">
 			<label class="control-label col-sm-2" style="text-align:left" for="nama">Nama:</label>
