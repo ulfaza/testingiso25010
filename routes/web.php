@@ -30,3 +30,6 @@ Route::get('/admin/profil', 'AdminController@editprofil')->name('editprofil');
 
 Route::get('/admin/tambahadmin', 'AdminController@tambahadmin')->name('tambahadmin');
 
+Route::get('/admin/tambahbobot', 'AdminController@tambahbobot')->name('tambahbobot');
+
+

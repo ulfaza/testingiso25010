@@ -27,5 +27,10 @@ class AdminController extends Controller
 		return view('/admin/tambahadmin');
 	}
 
+    public function tambahbobot()
+    {
+        return view('/admin/tambahbobot');
+    }
+
 }
 
