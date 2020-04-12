@@ -19,7 +19,7 @@ class AdminController extends Controller
 
     public function editprofil()
 	{
-		return view('/admin/editprofil');
+		return view('/admin/edit_profil');
 	}
 
 	public function tambahadmin()

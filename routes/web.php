@@ -24,7 +24,7 @@ Route::get('/admin/home', 'AdminController@index')->name('adminhome');
 
 Route::get('/admin/viewadmin', 'AdminController@view_admin')->name('adminview');
 
-Route::get('/editprofil', 'AdminController@editprofil')->name('editprofil');
+Route::get('/admin/editprofil', 'AdminController@editprofil')->name('editprofil');
 
-Route::get('/tambahadmin', 'AdminController@tambahadmin')->name('tambahadmin');
+Route::get('/admin/tambahadmin', 'AdminController@tambahadmin')->name('tambahadmin');
 
