@@ -15,7 +15,7 @@
                     <div class="col-md-4">
                         <div class="panel box-v1">
                             <div class="panel-body text-center">
-                                <a href="/admin/bobotrelatif"><h1>Bobot Relatif</h1></a>
+                                <a href="/admin/tambahbobot"><h1>Bobot Relatif</h1></a>
                                 <hr/>
                             </div>
                         </div>
